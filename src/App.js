@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div >
+    <div className="mx-auto max-w-screen-xl">
       <Navbar></Navbar>
       <Banner></Banner>
       <Banner2></Banner2>

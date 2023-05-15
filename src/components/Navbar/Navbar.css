@@ -61,3 +61,17 @@
 hr {
     border: 1px solid #396C03;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .login-btn {
+
+
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 225px;
+        margin-right: 16px;
+    }
+
+}

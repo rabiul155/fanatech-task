@@ -1,0 +1,71 @@
+.banner2 {
+    background-color: rgba(255, 140, 0, 0.05);
+}
+
+.banner2-heading {
+
+    font-family: 'Merienda', cursive;
+    color: #396C03;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.explore-btn {
+
+    background: #396C03;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 225px;
+}
+
+.city {
+    background-image: url('../../assets//city2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.cycle {
+    position: absolute;
+    bottom: 10px;
+    animation: moveImage 5s linear infinite;
+
+}
+
+@keyframes moveImage {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .cycle {
+        bottom: -30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .banner2-heading {
+
+        font-size: 40px;
+    }
+
+    .cycle {
+
+        bottom: 40px;
+
+
+    }
+
+}

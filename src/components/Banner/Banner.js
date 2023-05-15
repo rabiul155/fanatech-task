@@ -13,6 +13,7 @@ const Banner = () => {
         <div className='banner grid grid-cols-1 lg:grid-cols-2'>
 
             <div>
+
                 {/* left leaf section */}
                 <div className='left-leaf'>
                     <img src={leaf} alt="" />
@@ -25,11 +26,9 @@ const Banner = () => {
                         from your favourite <br />
                         local restaurants<span className='text-[#FF8B00]'>.</span></h2>
                     <div>
-                        <h4 className='text-2xl'>Freshly made food delivered to your door.</h4>
+                        <h4 className='text-sm md:text-[18px] lg:text-2xl'>Freshly made food delivered to your door.</h4>
                     </div>
                 </div>
-
-
 
 
                 {/* seachbar setion  */}
@@ -37,14 +36,17 @@ const Banner = () => {
                     <div className=' search-box'>
                         <input type="text" placeholder="Enter Your Location" className="input input-bordered  " />
                         <img src={Ellipse} alt="" />
-                        <button className='search-btn px-16 py-4'>
-                            <img className=' inline-block mr-4' src={search} alt="" />
+                        <button className='search-btn px-5 md:px-16 py-[14px] lg:py-4'>
+                            <img className=' inline-block mr-2 md:mr-4' src={search} alt="" />
                             Search</button>
                     </div>
                 </div>
+
             </div>
 
             {/* right side section  */}
+
+
             <div className=' right-side-section'>
 
                 <div>
@@ -58,7 +60,7 @@ const Banner = () => {
                 </div>
 
 
-                <div className=' delivery-card'>
+                <div className='delivery-card'>
                     <div className='flex justify-start items-center'>
                         <img src={tikmark} alt="" />
                         <h3>200k+</h3>

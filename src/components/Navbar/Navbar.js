@@ -30,8 +30,8 @@ const Navbar = () => {
             <div className="navbar  navbar-info">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        <label tabIndex={0} className="btn btn-ghost px-1 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             {
@@ -39,7 +39,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <a className="btn nav-title relative btn-ghost normal-case text-xl">
+                    <a className="btn nav-title relative btn-ghost px-1 normal-case text-lg lg:text-xl">
                         FoodTime
                         <img className='absolute top-0 right-0' src={clip} alt="" srcset="" />
                     </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="login-btn px-[50px] py-[12px]">Login</button>
+                    <button className="login-btn px-4 md:px-[50px] py-[12px]">Login</button>
                     <button className="cart-btn flex justify-center items-center">
                         <img src={cart} alt="" />
                         <p className=' cart-clip'>2</p>
