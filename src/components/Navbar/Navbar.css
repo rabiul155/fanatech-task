@@ -1,0 +1,47 @@
+.nav-title {
+    font-family: 'Merienda', cursive;
+    color: #396C03;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.navbar-info {
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: rgba(107, 145, 66, 0.244);
+}
+
+.nav-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #3F3F3F;
+    margin-right: 6px;
+    /* line-height: 36px; */
+
+}
+
+.login-btn {
+
+    background: #396C03;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 225px;
+    margin-right: 24px;
+}
+
+.cart-btn {
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+    background: #396C03;
+
+}
+
+.cart-btn>img {
+    width: 28px;
+    height: 30px;
+
+}
