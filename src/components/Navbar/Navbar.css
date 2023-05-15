@@ -8,8 +8,6 @@
 
 .navbar-info {
     height: 80px;
-    left: 0px;
-    top: 0px;
     background: rgba(107, 145, 66, 0.244);
 }
 
@@ -37,6 +35,7 @@
     width: 56px;
     border-radius: 28px;
     background: #396C03;
+    position: relative;
 
 }
 
@@ -44,4 +43,21 @@
     width: 28px;
     height: 30px;
 
+}
+
+.cart-clip {
+    background-color: #FF8B00;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+
+}
+
+hr {
+    border: 1px solid #396C03;
 }

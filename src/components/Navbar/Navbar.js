@@ -26,7 +26,7 @@ const Navbar = () => {
 
         </>
     return (
-        <div>
+        <div className=''>
             <div className="navbar  navbar-info">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -55,9 +55,11 @@ const Navbar = () => {
                     <button className="login-btn px-[50px] py-[12px]">Login</button>
                     <button className="cart-btn flex justify-center items-center">
                         <img src={cart} alt="" />
+                        <p className=' cart-clip'>2</p>
                     </button>
                 </div>
             </div>
+            <hr />
         </div>
     );
 };

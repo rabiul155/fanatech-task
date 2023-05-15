@@ -1,0 +1,136 @@
+.banner {
+    position: relative;
+    height: 756px;
+    background: rgba(107, 145, 66, 0.244);
+
+}
+
+.left-leaf {
+    position: absolute;
+    top: -40px;
+    left: -100px;
+    height: 300px;
+    width: 300px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-family: 'Merienda', cursive;
+    color: #396C03;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-text h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #3F3F3F;
+    font-weight: 600;
+}
+
+.search-section {
+    position: absolute;
+    top: 530px;
+    left: 100px
+}
+
+.search-section input {
+    width: 610px;
+    height: 60px;
+    border-radius: 30px;
+    background: white;
+    padding-left: 64px;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box>img {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.search-btn {
+    position: absolute;
+    right: 0px;
+    background: #396C03;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 225px;
+
+}
+
+.right-side-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.plate1 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+}
+
+.plate2 {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    height: 500px;
+    width: 500px;
+    z-index: 10;
+}
+
+.leaf2 {
+    position: absolute;
+    top: 70px;
+    right: -20px;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+
+}
+
+.delivery-card {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 180px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.4) 100%);
+    backdrop-filter: blur(6px);
+    padding: 18px;
+    border-radius: 6px;
+    z-index: 100;
+
+}
+
+.delivery-card img {
+    height: 36px;
+    width: 36px;
+
+}
+
+.delivery-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FF8B00;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+.delivery-card p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #959595;
+    margin: 2px 6px;
+
+
+
+}
